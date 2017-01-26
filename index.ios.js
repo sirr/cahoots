@@ -1,9 +1,9 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+import { AppRegistry } from 'react-native';
+import App from './src/app/app';
 
+AppRegistry.registerComponent('cahoots', () => App);
+
+/*
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -51,3 +51,4 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('cahoots', () => cahoots);
+*/
